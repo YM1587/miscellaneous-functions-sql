@@ -14,3 +14,13 @@ An alternative to CAST() for converting values between data types.
 sql
 CONVERT(expression, target_data_type)
 ```
+### NULL Value Handling Functions
+IFNULL()
+Returns a specified value if the given expression is NULL; otherwise, it returns the expression itself.
+
+Commonly used to ## replace ## NULLs in result sets with default values.
+
+```
+sql
+IFNULL(expression, replacement_value)
+```
