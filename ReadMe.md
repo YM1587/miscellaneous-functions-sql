@@ -32,3 +32,19 @@ Useful for treating specific values as NULL to prevent errors (e.g., division by
 sql
 NULLIF(expression1, expression2)
 ```
+### ISNULL() (SQL Server)
+Returns 1 if the expression is NULL, otherwise returns 0.
+
+Helpful for filtering or applying logic based on the presence of NULL values.
+```
+sql
+ISNULL(expression)
+```
+### COALESCE()
+Evaluates a list of expressions from left to right, returning the first non-NULL value.
+
+Often used to provide fallback values when dealing with multiple possible NULLs.
+```
+sql
+COALESCE(expr1, expr2, ..., exprN)
+```
