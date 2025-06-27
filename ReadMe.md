@@ -24,3 +24,11 @@ Commonly used to ## replace ## NULLs in result sets with default values.
 sql
 IFNULL(expression, replacement_value)
 ```
+### NULLIF()
+Compares two expressions and returns NULL if they are equal; otherwise, returns the first expression.
+
+Useful for treating specific values as NULL to prevent errors (e.g., division by zero).
+```
+sql
+NULLIF(expression1, expression2)
+```
