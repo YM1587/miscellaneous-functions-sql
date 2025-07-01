@@ -46,5 +46,5 @@ Evaluates a list of expressions from left to right, returning the first non-NULL
 Often used to provide fallback values when dealing with multiple possible NULLs.
 ```
 sql
-COALESCE(expr1, expr2, ..., exprN)
+COALESCE(expr1, expr2, ..., exprN).
 ```
